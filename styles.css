@@ -1,0 +1,53 @@
+
+:root{
+    --main-bg-color: hsl(334, 66%, 55%); /*#D84282*/ ;
+}
+
+
+
+
+
+#menu {
+    height: 150px;
+    width: 250px;
+    background-color: var(--main-bg-color);
+    margin: 50px;
+    position: relative;
+    border-radius: 10%;
+}
+
+
+#menu::before{
+    content:"";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 250px;
+    height: 30px;
+    background-color: white;
+}
+
+
+#menu::after{
+    content:"";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 250px;
+    height: 30px;
+    background-color: white;
+}
+
+
+
+
+
+
+/*Let op: Je mag niets veranderen in de aangeleverde HTML*/
+/*Koppel een extern stylesheet aan jouw HTML-bestand*/
+/*Er is gebruik gemaakt van de volgende kleur: #D84282*/
+/*Gebruik een CSS variabele om de kleur in op te slaan en gebruik deze in jouw CSS.*/
+/*De exacte afmetingen van de balkjes zijn niet zo belangrijk, zolang het maar op een hamburger-icoon lijkt.*/
+/*!*Tip: geef het basis-element voldoende margin, anders valt je bovenste balkje misschien van je scherm af en dan zie je hem niet.*!*/
